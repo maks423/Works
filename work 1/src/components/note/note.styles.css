@@ -1,0 +1,17 @@
+.note:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.14), 6px 6px 6px rgba(0, 0, 0, 0.23);
+
+}
+.delete-note {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: none;
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.note:hover .delete-note {
+    display: block;
+}
