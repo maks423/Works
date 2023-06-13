@@ -1,0 +1,17 @@
+.box-container {
+    border: 2px solid black;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container .box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#cssCode {
+    width: 100%;
+}
