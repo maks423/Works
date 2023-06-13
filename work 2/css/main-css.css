@@ -1,0 +1,22 @@
+.text {
+    color: white;
+}
+
+.textArea {
+    background-color: black;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.btn {
+    position: relative;
+    top: 30px;
+    width: 150px;
+}
+
+body{
+    background: url(../bg/Bars-2s-1536px.png);
+}

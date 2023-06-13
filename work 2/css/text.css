@@ -1,0 +1,41 @@
+body{
+    background: url(../bg/Fluid-10s-1536px.png);
+}
+
+#arrow1 {
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 30px;
+}
+
+#arrow {
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    transform: rotate(180deg);
+}
+
+.box-container {
+    border: 2px solid black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container .box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#cssCode {
+    width: 100%;
+} 
+
+#tex{
+    font-size: 20px;
+    color: black;
+}

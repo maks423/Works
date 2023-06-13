@@ -1,0 +1,33 @@
+.box-container {
+    border: 2px solid black;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container .box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#cssCode {
+    width: 100%;
+}
+ 
+#arrow {
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    transform: rotate(180deg);
+}
+
+body{
+    background: url(../bg/Bubble-20s-1536px.png);
+}
+
+.box{
+    background-color: black;
+}

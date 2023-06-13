@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/text.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./main-page.html">CSS Generator</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./Size.html">Size</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./box-shadow.html">Margin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./text.html">Text</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./transform.html">Transform</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./border-radius.html">Border-radius</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <a href="./box-shadow.html"><img id="arrow1" src="https://cdn-icons-png.flaticon.com/512/6879/6879246.png"
+            alt=""></a>
+    <a href="./transform.html"><img id="arrow" src="https://cdn-icons-png.flaticon.com/512/6879/6879246.png" alt=""></a>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col col-4">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Text
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="size-control">
+
+                                    <div class="row">
+                                        <label for="widthRange" class="form-label">Font-size: </label>
+
+                                        <input type="range" class="form-range" id="fontRange" min="10" max="100"
+                                            value="20">
+
+                                        <input type="number" class="form-control" id="fontText" value="20">px
+
+                                        <label for="Backgroun-color" class="form-label">Color: </label>
+
+                                        <input type="color" class="form-range" id="Color">
+
+                                        <input type="text" class="form-control" id="colorText" value="#000000">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col col-8">
+                <div class="box-container">
+                    <p id="tex">Some-text</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col col-12">
+                <div class="code-container">
+                    <div class="code">
+                        <button id="btnCopy" type="button" class="btn btn-primary">Copy</button>
+                        <button id="btnClear" type="button" class="btn btn-primary">Clear</button>
+                        <textarea id="cssCode" rows="10"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="./js/text.js"></script>
+</body>
+
+</html>
